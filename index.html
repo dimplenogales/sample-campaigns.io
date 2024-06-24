@@ -4,7 +4,13 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <style>
+        body {
+            font-family: 'Inter';
+            line-height: 1.5;
+        }
+
         table {
             cell-padding: 0;
         }
@@ -37,11 +43,22 @@
         .bullet_icons {
             padding-left: 52px;
             vertical-align: top;
-            padding-top: 15px;
+            padding-top: 5px;
         }
 
         .bullet_content {
-            padding-left: 20px;
+            padding: 0px 52px 20px 20px;
+        }
+
+        .headline_bullet {
+            font-weight: bold;
+            font-size: 18px;
+            margin: 0px;
+        }
+
+        .font-style-normal {
+            font-size: 16px;
+            line-height: 1.5;
         }
     </style>
 </head>
@@ -50,7 +67,7 @@
     <!--hero image-->
     <table cellspacing=0>
         <tr>
-            <td>
+            <td style="text-align: center; width: 720px;">
                 <img src="https://raw.githubusercontent.com/dimplenogales/sample-campaigns.io/main/Tenet%20logo.png" width="150px;" />
             </td>
         </tr>
@@ -68,8 +85,8 @@
     <table cellspacing=0 class="putCenter" width="617">
         <tr>
             <td>
-                <p> Hey [name], </p>
-                <p>Are you prioritizing your health and wellness? At Tenet Hospital, we understand the importance of preventive care. That's why we're offering a wide range of health screening packages designed to identify potential health risks early on.</p>
+                <p class="font-style-normal" style="font-weight: bold;"> Hey [name], </p>
+                <p class="font-style-normal">Are you prioritizing your health and wellness? At Tenet Hospital, we understand the importance of preventive care. That's why we're offering a wide range of health screening packages designed to identify potential health risks early on.</p>
             </td>
         </tr>
     </table>
@@ -84,10 +101,10 @@
 
             <td>
 
-            <td>
-                <p>Early detection is key to effective treatment.</p>
+            <td style="padding-left:55px;padding-right:20px;">
+                <p style="font-size:20px;font-weight:bold;color:#ffffff">Early detection is key to effective treatment.</p>
                 <p>Our screenings can help us catch health concerns early, when they're often easier and more affordable to treat.</p>
-                <p>Book an appointment</p>
+                <center> <p style="text-align: center; background-color: white; border-radius: 25px; padding: 5px 10px 5px 15px; width: 170px; font-weight: bold; color: #283891;">Book an appointment</p></center>
             </td>
         </tr>
     </table>
@@ -108,8 +125,20 @@
         </tr>
 
         <tr>
-            <td colspan="2" class="putCenter p_center">
+            <td colspan="2" class="putCenter p_center" style="font-size:20px;font-weight:bold;">
                 <p>Here are some of the health screenings we offer:</p>
+            </td>
+        </tr>
+
+
+        <!--bullets-->
+        <tr>
+            <td class="bullet_icons">
+                <img src="https://raw.githubusercontent.com/dimplenogales/sample-campaigns.io/main/mage_health-square-fill.png" width="24px;" />
+            </td>
+            <td class="bullet_content">
+                <p class="headline_bullet"> General health screenings: </p>
+                <p class="font-style-normal" style="margin: 0px;">These checkups assess your overall health and can identify risk factors for common conditions like heart disease, diabetes, and some cancers.</p>
             </td>
         </tr>
 
@@ -118,11 +147,35 @@
                 <img src="https://raw.githubusercontent.com/dimplenogales/sample-campaigns.io/main/mage_health-square-fill.png" width="24px;" />
             </td>
             <td class="bullet_content">
-                <p>General health screenings: </p>
-                <p>These checkups assess your overall health and can identify risk factors for common conditions like heart disease, diabetes, and some</p>
+                <p class="headline_bullet">Women's health screenings:</p>
+                <p class="font-style-normal" style="margin: 0px;">These screenings focus on women's specific health needs, including mammograms, pap smears, and bone density scans.</p>
             </td>
         </tr>
 
+        <tr>
+            <td class="bullet_icons">
+                <img src="https://raw.githubusercontent.com/dimplenogales/sample-campaigns.io/main/mage_health-square-fill.png" width="24px;" />
+            </td>
+            <td class="bullet_content">
+                <p class="headline_bullet">Men's health screenings:</p>
+                <p class="font-style-normal" style="margin: 0px;">Our men's health screenings address common concerns for men, such as prostate cancer screenings and cholesterol checks.</p>
+            </td>
+        </tr>
+
+        <table>
+            <tr>
+                <td class="spacer">
+                </td>
+            </tr>
+        </table>
+        <!--footer-->
+        <table style="background-color: #283891;">
+            <tr>
+                <td class="putCenter p_center">
+                    <p style="color:white;padding:20px 55px;">We're also offering a special discount on health screenings for a limited time! Use code <span style="color:#F47523;font-weight:bold;">HEALTHY20</span> at checkout to save 20%.</p>
+                </td>
+            </tr>
+        </table>
     </table>
 
 
