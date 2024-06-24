@@ -4,28 +4,68 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <style>
+        table {
+            cell-padding: 0;
+        }
+
+        .module2 {
+            border-radius: 25px;
+            height: 250px;
+            background-color: #F47523;
+        }
+
+        .module3 {
+            margin: auto;
+            border: 2px solid #283891;
+            border-radius: 25px;
+        }
+
+        .spacer {
+            height: 30px;
+            background-color: none;
+        }
+
+        .putCenter {
+            margin: auto;
+        }
+
+        .p_center {
+            text-align: center;
+        }
+
+        .bullet_icons {
+            padding-left: 52px;
+            vertical-align: top;
+            padding-top: 15px;
+        }
+
+        .bullet_content {
+            padding-left: 20px;
+        }
+    </style>
 </head>
-    
-<body style="width:720px;border:1px solid gray">
+
+<body style="width: 720px; border: 1px solid #D7D7D7; margin: auto; padding: 0">
     <!--hero image-->
-    <table>
+    <table cellspacing=0>
         <tr>
             <td>
-                <img src="https://raw.githubusercontent.com/dimplenogales/sample-campaigns.io/main/Tenet%20logo.png" style="width:720px;"/>
+                <img src="https://raw.githubusercontent.com/dimplenogales/sample-campaigns.io/main/Tenet%20logo.png" width="150px;" />
             </td>
         </tr>
     </table>
 
-    <table>
+    <table cellspacing=0>
         <tr>
-            <td>
-                <img src="https://raw.githubusercontent.com/dimplenogales/sample-campaigns.io/main/Hero.png" />
+            <td style="padding: 0;">
+                <img src="https://raw.githubusercontent.com/dimplenogales/sample-campaigns.io/main/Hero.png" width="720px;" />
             </td>
         </tr>
     </table>
 
     <!--module 1-->
-    <table>
+    <table cellspacing=0 class="putCenter" width="617">
         <tr>
             <td>
                 <p> Hey [name], </p>
@@ -34,44 +74,55 @@
         </tr>
     </table>
 
+
     <!--module 2-->
-    <table>
+    <table cellspacing=0 width="617" class="putCenter module2">
         <tr>
-            <td rowspan="3">
-                <img src="https://raw.githubusercontent.com/dimplenogales/sample-campaigns.io/main/image%201.png" />
+            <td>
+                <img src="https://raw.githubusercontent.com/dimplenogales/sample-campaigns.io/main/image%201.png" width="270px;height:auto;" />
             </td>
 
             <td>
-        <tr>
+
             <td>
                 <p>Early detection is key to effective treatment.</p>
                 <p>Our screenings can help us catch health concerns early, when they're often easier and more affordable to treat.</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
                 <p>Book an appointment</p>
             </td>
         </tr>
-        </td>
+    </table>
+
+    <table>
+        <tr>
+            <td class="spacer">
+            </td>
         </tr>
     </table>
 
-
     <!--module 3-->
-    <table>
+    <table class="module3" width="617" style="cellspacing: 0;">
         <tr>
-            <td>
+            <td class="putCenter p_center" colspan="2" style="padding-top:12px;">
+                <img src="https://raw.githubusercontent.com/dimplenogales/sample-campaigns.io/main/streamline_checkup-medical-report-clipboard-solid.png" width="35px;" />
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" class="putCenter p_center">
                 <p>Here are some of the health screenings we offer:</p>
             </td>
         </tr>
-        <tr>
-            <td>
-               <tr>
 
-               </tr>
+        <tr>
+            <td class="bullet_icons">
+                <img src="https://raw.githubusercontent.com/dimplenogales/sample-campaigns.io/main/mage_health-square-fill.png" width="24px;" />
+            </td>
+            <td class="bullet_content">
+                <p>General health screenings: </p>
+                <p>These checkups assess your overall health and can identify risk factors for common conditions like heart disease, diabetes, and some</p>
             </td>
         </tr>
+
     </table>
 
 
